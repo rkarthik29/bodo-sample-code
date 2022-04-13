@@ -14,7 +14,7 @@
 # **Getting Started**
 ### Getting started using Bodo is very simple. There are two ways, 
 1. ### Bodo Platform
-#### Bodo platform is a pay as you go SAAS. simply register for the bodo platform using your cloud provider (Amazon, Azure , GCP (coming soon)). Bodo platform a simple click based way of managing and runnig bodo workloads. You can register for a free trial <a href="https://aws.amazon.com/marketplace/pp/prodview-zg6n2qyj5h74o">here</a> </h4>
+#### Bodo platform is a pay as you go SAAS. simply register for the bodo platform using your cloud provider (Amazon, Azure , GCP (coming soon)). Bodo platform a simple click based way of managing and runnig bodo workloads. You can register for a free trial <a href="https://aws.amazon.com/marketplace/pp/prodview-zg6n2qyj5h74o">here</a>
     - [Instructions for Deploying on AWS](https://www.example.com)
     - [Instructions for Deploying on Azure](https://www.example.com)
 
