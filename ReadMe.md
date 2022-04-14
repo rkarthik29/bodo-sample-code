@@ -16,8 +16,8 @@
 1. ### Bodo Platform
 #### Bodo platform is a pay as you go SAAS. simply register for the bodo platform using your cloud provider (Amazon, Azure , GCP (coming soon)). Bodo platform a simple click based way of managing and runnig bodo workloads. 
 ### You can register for a free trial [here](https://aws.amazon.com/marketplace/pp/prodview-zg6n2qyj5h74o)
-- [Instructions for Deploying on AWS](https://www.example.com)
-- [Instructions for Deploying on Azure](https://www.example.com)
+- [Instructions for Deploying on AWS](https://docs.bodo.ai/2022.3/installation_and_setup/bodo_platform_aws/)
+- [Instructions for Deploying on Azure](https://docs.bodo.ai/2022.3/installation_and_setup/bodo_platform_azure/)
 
 2. ### Bodo Community Edition
 #### Bodo Community edition is a simple free to use license of bodo (upto 8 cores). This is useful if you do not have access to a cloud environment or want to try Bodo out locally. Once you are ready and want to scale your workload, you can either leverage the cloud platform or request an enterprise license.
@@ -48,3 +48,17 @@ def main():
     args = parser.parse_args()
     points = args.points
     calc_pi(points)
+```
+### Run the above example use the command below
+> python -u /tmp/pi.py
+
+### Run the example of multiple cores with mpiexec/
+> mpiexec -n <num_cores> python - /tmp/pi.py
+
+### Conda can be leverage to install Bodo . Follow the link for detailed instructions.
+- [Bodo setup Conda](https://docs.bodo.ai/2022.3/installation_and_setup/install/)
+### You can also run and work with Bodo programs interactively using IPyParallel and Jupyter. Follow the guide below for setup.
+- [Interactive Programming Bodo](https://docs.bodo.ai/2022.3/installation_and_setup/ipyparallel/)
+# BodoSQL
+### If you prefer usign SQL for your data processing and data manipulation, BodoSQL can be leveraged. Below link guides on setting up and using BodoSQL.
+- [Installign and using BodoSQl](https://docs.bodo.ai/2022.3/api_docs/BodoSQL/?h=bodosql#bodosql)
