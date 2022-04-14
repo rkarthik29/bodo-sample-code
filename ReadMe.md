@@ -52,7 +52,7 @@ def main():
 ### Run the above example use the command below
 > python -u /tmp/pi.py
 
-### Run the example of multiple cores with mpiexec/
+### Run the example on multiple cores with mpiexec.
 > mpiexec -n <num_cores> python - /tmp/pi.py
 
 ### Conda can be leverage to install Bodo . Follow the link for detailed instructions.
